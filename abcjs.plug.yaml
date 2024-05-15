@@ -1,0 +1,5 @@
+name: abcjs
+functions:
+  abcjsWidget:
+    path: ./abcjs.ts:widget
+    codeWidget: abc
