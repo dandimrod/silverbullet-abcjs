@@ -26,9 +26,6 @@ export function widget(
       ABCJS.renderAbc("abc-paper", \`${bodyText.replace(/\$/g,'//$').replace(/`/g, '\\`')}\`);
       updateHeight();
     });
-    document.addEventListener("click", () => {
-      api({type: "blur"});
-    });
     `,
   };
 }
